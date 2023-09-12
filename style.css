@@ -1,0 +1,102 @@
+/* NOW AM STYLING  */
+.body{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}          
+.container{
+    display: flex;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    box-shadow: inset 0.1px 0.1px 5px rgb(70, 69, 69),
+                      0.1px 0.1px 5px rgb(82, 82, 82) ;
+  padding: 8px;  
+  border-radius: 20px 0px 20px 0px;                  
+} 
+
+.cole-1{
+    width: 40%;
+    text-align: center;
+}
+.cole-1 img{
+    width: 180px;
+    height: auto;
+}
+.cole-2{
+    width: 100%;
+}
+.production-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.production-name{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: gray;
+    margin-bottom: 20px;
+}
+   .product-description {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: gray;
+    letter-spacing: 1px;
+   }
+   .price{
+    margin: 20px 0px 20px 0px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: gray;
+    letter-spacing: 1px;
+   }
+   .btn1{
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(34, 116, 238);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+   }
+.btn-indecrement :hover{
+    background-color: red;
+}
+.btn-indecrement{
+    background-color: green;
+}
+.btn-input{
+    width: 40px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px 1px  rgb(27, 101, 238);
+    color: rgb(49, 49, 49);
+    text-align: center;
+}
+.total-amout h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgb(49, 49, 49);
+    margin: 20px 0px 20px 0px;
+}
+.total-price{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight:700 ;
+    color: rgb(27, 27, 27);
+    box-shadow: 0px 0px 5px 1px  rgb(27, 101, 238);
+    line-height: 30px;
+    padding-left: 15px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
